@@ -1,1 +1,13 @@
+a=input()
+for i in range(len(a)):
+    for j in range(len(a)):
+        if i==0:
+            print(a[j],end='')
+        elif i+j==len(a)-1:
+            print(a[j],end='')
+        elif i==4:
+            print(a[j],end='')
+        else:
+            print(' ',end='')
+    print()
 
